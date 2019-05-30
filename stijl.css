@@ -89,8 +89,10 @@ a:hover{
       padding: 3rem;
       margin-bottom: 5rem;
 }
-h1{font-size: 2rem;
-   font-family: 'helvetica';}
+h1{font-size: 7rem;
+   font-family: 'Monoton', cursive;
+   text-align: center;
+    margin-top: 3rem;}
 
 p{
       font-family: 'helvetica';
