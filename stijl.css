@@ -1,0 +1,118 @@
+:root{font-size: 62.5%;}
+
+body {
+      font-family: Comfortaa;
+      background: linear-gradient(90deg, rgba(0,0,255,.8), rgba(0,0,255,0) );
+      animation-name: intro;
+      animation-duration: 20s;
+      animation-iteration-count: infinite;
+     }
+/*@keyframes intro {
+
+      50% {background-color: rgba(119, 201, 149, 1);}
+      75% {background-color: rgba(255, 240, 36, 0.74);}
+}*/
+ main{
+
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+ }
+.fixed {
+      position: fixed;
+      background-color:rgba(233, 222, 86, 0.62) ;
+      left: 0;
+      top: 0;
+      width: 100vw;
+      height: 27vh;
+}
+.bodyhome{
+      background: white;
+}
+
+a{    text-decoration: none;
+      padding: 1rem;
+      color:white;
+      text-decoration: none;
+      font-family: 'Open Sans', sans-serif;
+}
+
+a:hover{
+      color: black;
+}
+
+.logo img{
+      font-size: 5rem;
+      top:5rem;
+      max-width:10%;
+      margin-top: 5vh;
+      margin-left: 45vw;}
+
+
+.intro{
+      text-align: center;
+      font-size: 3rem;
+      font-weight: bold;
+      color: white;
+      position: relative;
+      top: 5rem;
+}
+.container{
+      text-align: center;
+}
+
+.xplore{
+      font-size: 2rem;
+      font-weight: 400;
+      background-color:transparent;
+      border: 5px solid white;
+      border-radius: 20rem;
+      padding: 1rem;
+      width: 15rem;
+      color: white;
+      position: relative;
+      top: 30rem;
+
+}
+.xplore:hover{
+     background-color:white;
+     color: grey;
+
+}
+.rij{}
+.navigatie{
+      font-size: 2.5rem;
+      margin-top: 5rem;
+      text-align: center;
+      text-decoration: none;
+      background-color: rgb(212, 55, 28);
+      padding: 3rem;
+      margin-bottom: 5rem;
+}
+h1{font-size: 2rem;
+   font-family: 'helvetica';}
+
+p{
+      font-family: 'helvetica';
+      font-size: 1.5rem;
+      margin-bottom: 5rem;
+      padding: 1rem;
+      line-height: 2rem;
+}
+
+
+.afbeelding{
+      max-width: 100px;
+      margin-left: 7rem;
+}
+.kader{
+iframe {
+      margin-left: -10px;
+}
+
+.kader {
+      margin: 15rem auto;
+      overflow: hidden;
+      width: 610px;
+      height: 430px;
+}
